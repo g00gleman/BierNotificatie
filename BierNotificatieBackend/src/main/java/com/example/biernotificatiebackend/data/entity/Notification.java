@@ -1,7 +1,6 @@
 package com.example.biernotificatiebackend.data.entity;
 
 import jakarta.persistence.*;
-
 @Entity
 @Table(name = "notifications")
 public class Notification {

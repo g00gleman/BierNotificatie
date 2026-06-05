@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32828cac-2ebe-4154-b52e-214cff77bf8c" name="Changes" comment="init 3" />
+    <list default="true" id="32828cac-2ebe-4154-b52e-214cff77bf8c" name="Changes" comment="init 3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BierNotificatieBackend/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/BierNotificatieBackend/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BierNotificatieBackend/src/main/java/com/example/biernotificatiebackend/data/entity/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/BierNotificatieBackend/src/main/java/com/example/biernotificatiebackend/data/entity/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BierNotificatieBackend/src/main/java/com/example/biernotificatiebackend/data/repository/NotificatieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/BierNotificatieBackend/src/main/java/com/example/biernotificatiebackend/data/repository/NotificationRepository.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +17,31 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/BierNotificatieBackend">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/BierNotificatieBackend/.gradle">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="BierNotificatieBackend" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,6 +59,7 @@
     "accountId": "c688bcd5-6c7a-4d1e-b108-be47d7f70a92"
   }
 }]]></component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$/BierNotificatieBackend" gradleHome="C:\Users\rikja\.gradle\wrapper\dists\gradle-9.3.1-bin\23ovyewtku6u96viwx3xl3oks\gradle-9.3.1" javaHome="C:\Program Files\Java\jdk-21.0.10" gradleVersion="9.3.1" />
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -43,10 +74,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.BiernotificatieBackend.executor": "Run",
+    "Gradle.Build BierNotificatieBackend.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.BierNotificatieBackendApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -65,6 +104,15 @@
       <recent name="C:\Users\rikja\source\repos\BierNotificatie" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="BierNotificatieBackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="BierNotificatieBackend.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.biernotificatiebackend.BierNotificatieBackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -82,7 +130,7 @@
       <updated>1780662225557</updated>
       <workItem from="1780662230345" duration="368000" />
       <workItem from="1780662678466" duration="12000" />
-      <workItem from="1780662708820" duration="737000" />
+      <workItem from="1780662708820" duration="3012000" />
     </task>
     <task id="LOCAL-00001" summary="init 2">
       <option name="closed" value="true" />
@@ -108,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780663340065</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="init 3 with back en front-end">
+      <option name="closed" value="true" />
+      <created>1780663523413</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1780663523413</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
