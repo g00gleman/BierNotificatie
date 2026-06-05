@@ -1,0 +1,103 @@
+<div class="container">
+
+  <h2>Nieuwe notificatie maken</h2>
+
+  <form #form="ngForm" (ngSubmit)="onSubmit()">
+
+    <!-- Locatie -->
+    <div class="form-group">
+      <label for="location">Locatie</label>
+
+      <input
+        type="text"
+        id="location"
+        name="location"
+        class="form-control"
+        [(ngModel)]="notification.location"
+        required>
+    </div>
+
+    <!-- Categorie -->
+    <div class="form-group">
+      <label for="category">Categorie drank</label>
+
+      <select
+        name="category"
+        class="form-control"
+        [(ngModel)]="notification.category">
+
+        @for (cat of categories; track cat) {
+          <option [value]="cat">
+            {{ cat }}
+          </option>
+        }
+
+      </select>
+    </div>
+
+    <!-- Drank -->
+    <div class="form-group">
+      <label for="drink">Drank</label>
+
+      <input
+        type="text"
+        id="drink"
+        name="drink"
+        class="form-control"
+        [(ngModel)]="notification.drink"
+        required>
+    </div>
+
+    <!-- Bericht -->
+    <div class="form-group">
+      <label for="message">Bericht</label>
+
+      <textarea
+        id="message"
+        name="message"
+        class="form-control"
+        rows="3"
+        [(ngModel)]="notification.message">
+      </textarea>
+    </div>
+
+    <!-- Tijd -->
+    <div class="form-group">
+      <label for="time">Tijd</label>
+
+      <input
+        type="datetime-local"
+        id="time"
+        name="time"
+        class="form-control"
+        [(ngModel)]="notification.time">
+    </div>
+
+    <!-- Buttons -->
+    <div class="form-actions">
+
+      <button type="submit" class="btn btn-primary">
+        Verstuur notificatie
+      </button>
+
+      <button type="reset" class="btn btn-secondary">
+        Annuleren
+      </button>
+
+    </div>
+
+  </form>
+
+  @if (submitted) {
+    <div class="success-message">
+      Notificatie succesvol verstuurd!
+    </div>
+  }
+
+  @if (errorMessage) {
+    <div class="error-message">
+      {{ errorMessage }}
+    </div>
+  }
+
+</div>

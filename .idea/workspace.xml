@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32828cac-2ebe-4154-b52e-214cff77bf8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BierNotificatieBackend/src/main/java/com/example/biernotificatiebackend/data/converter/GitFile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BierNotificatieBackend/src/main/java/com/example/biernotificatiebackend/data/repository/NotificatieRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BierNotificatieBackend/src/main/java/com/example/biernotificatiebackend/data/repository/gitFile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BierNotificatieBackend/src/main/java/com/example/biernotificatiebackend/data/security/GitFile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BierNotificatieBackend/src/main/java/com/example/biernotificatiebackend/data/security/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BierNotificatieBackend/src/main/java/com/example/biernotificatiebackend/data/table/GitFile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BierNotificatieBackend/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/BierNotificatieBackend/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BierNotificatieBackend/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/BierNotificatieBackend/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BierNotificatieBackend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BierNotificatieBackend/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BierNotificatieBackend/src/main/resources/persistence/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BierNotificatieFrontend/src/app/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/BierNotificatieFrontend/src/app/app.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BierNotificatieFrontend/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/BierNotificatieFrontend/src/app/app.routes.ts" afterDir="false" />
-    </list>
+    <list default="true" id="32828cac-2ebe-4154-b52e-214cff77bf8c" name="Changes" comment="init 3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +56,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -94,8 +82,33 @@
       <updated>1780662225557</updated>
       <workItem from="1780662230345" duration="368000" />
       <workItem from="1780662678466" duration="12000" />
-      <workItem from="1780662708820" duration="381000" />
+      <workItem from="1780662708820" duration="737000" />
     </task>
+    <task id="LOCAL-00001" summary="init 2">
+      <option name="closed" value="true" />
+      <created>1780663235099</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1780663235099</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init 2">
+      <option name="closed" value="true" />
+      <created>1780663325093</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1780663325093</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init 3">
+      <option name="closed" value="true" />
+      <created>1780663340065</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1780663340065</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,5 +136,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init 2" />
+    <MESSAGE value="init 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="init 3" />
   </component>
 </project>
