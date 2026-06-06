@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32828cac-2ebe-4154-b52e-214cff77bf8c" name="Changes" comment="init 3">
+    <list default="true" id="32828cac-2ebe-4154-b52e-214cff77bf8c" name="Changes" comment="Added CI pipeline">
+      <change afterPath="$PROJECT_DIR$/BierNotificatieFrontend/jest.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BierNotificatieFrontend/setup-jest.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BierNotificatieFrontend/tests/components/create.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BierNotificatieBackend/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/BierNotificatieBackend/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BierNotificatieBackend/src/main/java/com/example/biernotificatiebackend/data/entity/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/BierNotificatieBackend/src/main/java/com/example/biernotificatiebackend/data/entity/Notification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BierNotificatieBackend/src/main/java/com/example/biernotificatiebackend/data/repository/NotificatieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/BierNotificatieBackend/src/main/java/com/example/biernotificatiebackend/data/repository/NotificationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BierNotificatieFrontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/BierNotificatieFrontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BierNotificatieFrontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/BierNotificatieFrontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BierNotificatieFrontend/src/app/app.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/BierNotificatieFrontend/src/app/app.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BierNotificatieFrontend/src/app/components/create-notification/create-component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/BierNotificatieFrontend/src/app/components/create-notification/create-component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BierNotificatieFrontend/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BierNotificatieFrontend/tsconfig.spec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +24,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="37" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/BierNotificatieBackend">
@@ -43,22 +53,29 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="GitHub Workflow" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "g00gleman"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;g00gleman&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/g00gleman/BierNotificatie.git",
-    "accountId": "c688bcd5-6c7a-4d1e-b108-be47d7f70a92"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/g00gleman/BierNotificatie.git&quot;,
+    &quot;accountId&quot;: &quot;c688bcd5-6c7a-4d1e-b108-be47d7f70a92&quot;
   }
-}]]></component>
+}</component>
   <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$/BierNotificatieBackend" gradleHome="C:\Users\rikja\.gradle\wrapper\dists\gradle-9.3.1-bin\23ovyewtku6u96viwx3xl3oks\gradle-9.3.1" javaHome="C:\Program Files\Java\jdk-21.0.10" gradleVersion="9.3.1" />
   <component name="McpProjectServerCommands">
     <commands />
@@ -81,9 +98,14 @@
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Spring Boot.BierNotificatieBackendApplication.executor": "Run",
     "git-widget-placeholder": "main",
@@ -96,6 +118,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -130,7 +153,8 @@
       <updated>1780662225557</updated>
       <workItem from="1780662230345" duration="368000" />
       <workItem from="1780662678466" duration="12000" />
-      <workItem from="1780662708820" duration="3012000" />
+      <workItem from="1780662708820" duration="3085000" />
+      <workItem from="1780746437286" duration="6684000" />
     </task>
     <task id="LOCAL-00001" summary="init 2">
       <option name="closed" value="true" />
@@ -164,7 +188,31 @@
       <option name="project" value="LOCAL" />
       <updated>1780663523413</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Werkend basis applicatie">
+      <option name="closed" value="true" />
+      <created>1780665848813</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1780665848813</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added gitignore">
+      <option name="closed" value="true" />
+      <created>1780746528409</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1780746528409</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added CI pipeline">
+      <option name="closed" value="true" />
+      <created>1780747202469</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1780747202469</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +244,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init 2" />
     <MESSAGE value="init 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="init 3" />
+    <MESSAGE value="Werkend basis applicatie" />
+    <MESSAGE value="Added gitignore" />
+    <MESSAGE value="Added CI pipeline" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CI pipeline" />
   </component>
 </project>

@@ -12,7 +12,6 @@ export interface Notification {
 
 @Component({
   selector: 'app-create-notification',
-  standalone: true,
   imports: [FormsModule],
   templateUrl: './create.html',
   styleUrls: ['./create.css'],
