@@ -39,12 +39,10 @@ export class CreateComponent {
 
     this.service.createNotification(this.notification).subscribe({
       next: (res) => {
-        console.log(res);
         this.submitted = true;
       },
 
       error: (err) => {
-        console.error(err);
         this.errorMessage = 'Er ging iets mis';
       }
     });
