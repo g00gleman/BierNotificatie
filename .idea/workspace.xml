@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32828cac-2ebe-4154-b52e-214cff77bf8c" name="Changes" comment="Added CI pipeline">
-      <change afterPath="$PROJECT_DIR$/BierNotificatieFrontend/jest.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BierNotificatieFrontend/setup-jest.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BierNotificatieFrontend/tests/components/create.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="32828cac-2ebe-4154-b52e-214cff77bf8c" name="Changes" comment="Added test to frontend">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BierNotificatieFrontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/BierNotificatieFrontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BierNotificatieFrontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/BierNotificatieFrontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BierNotificatieFrontend/src/app/app.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/BierNotificatieFrontend/src/app/app.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BierNotificatieFrontend/src/app/components/create-notification/create-component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/BierNotificatieFrontend/src/app/components/create-notification/create-component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BierNotificatieFrontend/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BierNotificatieFrontend/tsconfig.spec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +147,7 @@
       <workItem from="1780662230345" duration="368000" />
       <workItem from="1780662678466" duration="12000" />
       <workItem from="1780662708820" duration="3085000" />
-      <workItem from="1780746437286" duration="6684000" />
+      <workItem from="1780746437286" duration="6800000" />
     </task>
     <task id="LOCAL-00001" summary="init 2">
       <option name="closed" value="true" />
@@ -212,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780747202469</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added test to frontend">
+      <option name="closed" value="true" />
+      <created>1780757556591</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1780757556591</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +248,7 @@
     <MESSAGE value="Werkend basis applicatie" />
     <MESSAGE value="Added gitignore" />
     <MESSAGE value="Added CI pipeline" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added CI pipeline" />
+    <MESSAGE value="Added test to frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test to frontend" />
   </component>
 </project>
